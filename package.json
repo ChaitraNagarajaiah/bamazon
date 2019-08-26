@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ChaitraNagarajaiah/bamazon/issues"
   },
-  "homepage": "https://github.com/ChaitraNagarajaiah/bamazon#readme"
+  "homepage": "https://github.com/ChaitraNagarajaiah/bamazon#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
