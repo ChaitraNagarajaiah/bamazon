@@ -14,3 +14,5 @@ VALUES("olay", "cosmetics", 9.99, 20),
       ("softsoap", "handsoap", 12, 8),
       ("quaker", "food", 20, 15),
       ("hplaptop","laptops",450, 9)
+
+  SELECT * FROM PRODUCT;    

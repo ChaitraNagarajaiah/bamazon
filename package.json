@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/ChaitraNagarajaiah/bamazon#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.16.0"
   }
 }

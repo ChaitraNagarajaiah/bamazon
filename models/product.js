@@ -4,7 +4,12 @@ module.exports = function (sequelize, DataTypes) {
         department_name: DataTypes.STRING,
         price: DataTypes.INTEGER,
         stock_quantity: DataTypes.INTEGER
+
     });
+
+
+
+    return Product;
 
 
 }
