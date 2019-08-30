@@ -8,7 +8,7 @@ var express = require("express");
 //sets up express app
 
 var app = express();
-var port = process.env.port || 7500;
+var PORT = process.env.PORT || 7500;
 
 //requiring our models for syncing
 
@@ -29,7 +29,7 @@ require("./routes/products-api-routes.js")(app);
 //syncing our sequlize models and then starting our express app
 
 db.sequelize.sync().then(function () {
-    app.listen(port, function () {
-        console.log("App listening on port" + port);
+    app.listen(PORT, function () {
+        console.log("App listening on PORT" + PORT);
     });
 });
