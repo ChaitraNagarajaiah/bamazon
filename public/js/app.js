@@ -49,6 +49,7 @@ $(document).ready(function () {
             newQuantity = data.stock_quantity - inputVal
             if (inputVal > data.stock_quantity) {
                 console.log('Insufficient Quantity!')
+                alert('Insufficient Quantity');
             } else {
                 console.log('Thank you for your purchase');
                 console.log('newQuantity', newQuantity)
