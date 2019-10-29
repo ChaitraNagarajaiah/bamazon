@@ -1,5 +1,6 @@
 # bamazon
 
+ https://pacific-sands-63973.herokuapp.com/
 
 
 The web app will take in orders from customers and deplete stock from the store's inventory.
